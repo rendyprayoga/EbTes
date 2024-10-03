@@ -1,5 +1,9 @@
-import Image from "next/image";
-
+// import Link from "next/link";
+Summa;
 export default function Home() {
-  return <div>tess</div>;
+  return (
+    <div>
+      <Summary />
+    </div>
+  );
 }
