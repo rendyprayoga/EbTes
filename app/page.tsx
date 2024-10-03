@@ -1,9 +1,9 @@
 // import Link from "next/link";
-Summa;
+import Education from "../components/Education";
 export default function Home() {
   return (
     <div>
-      <Summary />
+      <Education />
     </div>
   );
 }
