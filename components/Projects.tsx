@@ -1,7 +1,7 @@
 // components/Projects.jsx
 export default function Projects() {
   return (
-    <section>
+    <section className="bg-blue-300">
       <h2>My Projects</h2>
       <ul>
         <li>Project 1 - E-learning Gamification Platform</li>
