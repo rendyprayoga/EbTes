@@ -1,109 +1,24 @@
 // components/Projects.jsx
+import Image from "next/image";
+
 export default function Projects() {
   return (
     <section className="bg-blue-300">
-      <h2>My Projects</h2>
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>
-      <h2>My Projects</h2>
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>{" "}
-      <ul>
-        <li>Project 1 - E-learning Gamification Platform</li>
-        <li>Project 2 - LaundryApps</li>
-        <li>Project 3 - Spotify Data Visualization</li>
-      </ul>
+      <div>
+        <Image src="vue.png" alt="Profile Image" width={340} height={200} />
+      </div>
+      <div>
+        <img src="" alt="" />
+      </div>{" "}
+      <div>
+        <img src="" alt="" />
+      </div>{" "}
+      <div>
+        <img src="" alt="" />
+      </div>{" "}
+      <div>
+        <img src="" alt="" />
+      </div>
     </section>
   );
 }
