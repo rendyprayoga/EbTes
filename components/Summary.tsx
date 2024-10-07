@@ -26,9 +26,9 @@ export default function Summary() {
       <div
         className="grid grid-cols-1 md:grid-cols-[auto,auto] gap-4 md:gap-10 p-10 items-center justify-center  md:h-screen "
         style={{
-          backgroundColor: "#1e40af",
+          backgroundColor: "#1C1A1F",
           boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-          background: "linear-gradient(to right, #3b82f6, #8b5cf6)",
+          // background: "linear-gradient(to right, #3b82f6, #8b5cf6)",
         }}
       >
         <div
