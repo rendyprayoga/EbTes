@@ -1,18 +1,24 @@
 // import Link from "next/link";
-import Education from "../components/Education";
-import Summary from "../components/Summary";
-import Projects from "../components/Projects";
+import LandingPage from "../components/home/LandingHome";
 import Navbar from "../components/Navbar";
+import SectionTwo from "../components/home/SectionTwo";
+import SectionThree from "../components/home/SectionThree";
+import Question from "../components/home/Question";
+import Subscribe from "@/components/home/Subscribe";
+import Footers from "../components/Footer";
 import "aos/dist/aos.css";
 
 export default function Home() {
   return (
-    <section>
+    <section className="font-rubik">
       <Navbar />
       <div>
-        <Summary />
-        <Projects />
-        <Education />
+        <LandingPage />
+        <SectionTwo />
+        <SectionThree />
+        <Question />
+        <Subscribe />
+        <Footers />
       </div>
     </section>
   );
