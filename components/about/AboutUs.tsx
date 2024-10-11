@@ -20,36 +20,27 @@ export default function LandingOne() {
           className="relative md:w-3/4 mx-auto flex flex-col items-center space-y-4"
           data-aos="fade-right"
         >
-          {/* Adjusted Image Elements */}
           <div
             className="absolute z-10 flex items-center justify-center"
             style={{
-              top: "-10rem", // Adjusted position for mobile
+              top: "-12rem",
               left: "50%",
               transform: "translateX(-50%)",
-              width: "35rem", // Reduced width for mobile
+              width: "45rem",
             }}
           >
-            <img
-              src="/Ellipse228.png"
-              alt="Icon 1"
-              className="w-full h-auto" // Responsive styling
-            />
+            <img src="/Ellipse228.png" alt="Icon 1" className="w-full h-auto" />
           </div>
           <div
             className="absolute z-0 flex items-center justify-center"
             style={{
-              top: "-20rem", // Adjusted position for mobile
+              top: "-20rem",
               left: "50%",
               transform: "translateX(-50%)",
-              width: "55rem", // Reduced width for mobile
+              width: "60rem",
             }}
           >
-            <img
-              src="/Ellipse228.png"
-              alt="Icon 2"
-              className="w-full h-auto" // Responsive styling
-            />
+            <img src="/Ellipse228.png" alt="Icon 2" className="w-full h-auto" />
           </div>
 
           <div className="z-1 text-white text-center">

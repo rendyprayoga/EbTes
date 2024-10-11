@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        rubik: ["Rubik", "sans-serif"], // Menambahkan font Rubik
+        rubik: ["Rubik", "sans-serif"],
       },
     },
   },

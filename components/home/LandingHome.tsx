@@ -47,10 +47,8 @@ export default function HomeMain() {
             height={500}
             className="rounded-2xl object-cover mb-20"
           />
-          {/* Icon 1 */}
         </div>
       </div>
-      {/* Why Choose Us Section */}
       <div className="text-center mt-60 " data-aos="fade-up">
         <h1 className="text-2xl font-bold text-black">Why choose us?</h1>
         <p
@@ -94,7 +92,7 @@ export default function HomeMain() {
             data-aos="flip-up"
           >
             <Image
-              src="/dataone.png"
+              src="/tech.png"
               alt="Productivity Image"
               width={100}
               height={80}
@@ -121,7 +119,7 @@ export default function HomeMain() {
             data-aos="fade-left"
           >
             <Image
-              src="/dataone.png"
+              src="/serv.png"
               alt="Productivity Image"
               width={100}
               height={80}

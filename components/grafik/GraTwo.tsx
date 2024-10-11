@@ -3,14 +3,14 @@
 import React, { useEffect } from "react";
 import * as echarts from "echarts";
 
-const GraOne = () => {
+const GraTwo = () => {
   useEffect(() => {
-    const chartDom = document.getElementById("chartTwo");
-    const myChart = echarts.init(chartDom);
+    var chartDom = document.getElementById("chart-bar");
+    var myChart = echarts.init(chartDom);
 
-    const option = {
+    var option = {
       title: {
-        text: "Jumlah Penduduk",
+        text: "Prasarana Air Bersih",
         left: "center",
       },
       xAxis: {
@@ -25,9 +25,8 @@ const GraOne = () => {
       },
       series: [
         {
-          data: [-90, -40, -80, 60, -2, 18, -100],
-          type: "line",
-          smooth: true,
+          data: [180, 110, 50, 60, 120, 250, 180],
+          type: "bar",
         },
       ],
     };
@@ -39,15 +38,7 @@ const GraOne = () => {
     };
   }, []);
 
-  return (
-    <section
-      id="chartTwo"
-      style={{
-        width: "100%",
-        height: "400px",
-      }}
-    ></section>
-  );
+  return <div id="chart-bar" style={{ width: "100%", height: "400px" }}></div>;
 };
 
-export default GraOne;
+export default GraTwo;
