@@ -5,6 +5,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+npm install
 npm run dev
 # or
 yarn dev
@@ -12,6 +13,15 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
+
+
+```bash
+Login auth
+username: 'emilys',
+password: 'emilyspass',
+
+## if you have logged in, please wait a few seconds because you have to compile the file, as well as when accessing the dashboard / Data Source page, 
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
